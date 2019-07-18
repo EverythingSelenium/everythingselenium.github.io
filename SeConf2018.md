@@ -18,14 +18,14 @@
 * Latest Appium includes test.io 's logic (https://appiumpro.com/)
 * Appium classifier plugin (https://www.npmjs.com/package/test-ai-classifier)
 * TensorFlow - Free AI engine
-######Other Android Testing Tech
+###### Other Android Testing Tech
 * Robotium - Android testing (https://github.com/RobotiumTech/robotium)
 * Espresso - Android testing (https://developer.android.com/training/testing/espresso/)
 ----
 #### AWS Lambdas to run Selenium tests
 * Blackboard/lambda-selenium (https://github.com/blackboard/lambda-selenium)
 ----
-####Misc Resources
+#### Misc Resources
 - **Allure Reports,** http://allure.qatools.ru/
 - **Marco Lüthy,** https://github.com/adieuadieu
 - **Alister Scott,** https://watirmelon.blog/
@@ -66,7 +66,7 @@ public class Test{
 }
 ```
 ----
-####`Sleep` is not your friend
+#### `Sleep` is not your friend
 ###### • `wait`, using `javascriptExecutor()` to check for a variable
  * set a variable, then clear that variable when the process is complete. Check for the variable using `javascriptExecutor()` rather than `Thread.sleep()`.
 ----
